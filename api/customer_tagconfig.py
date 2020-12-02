@@ -37,9 +37,9 @@ class TagConfig:
             'https://qyapi.weixin.qq.com/cgi-bin/externalcontact/add_corp_tag?',
             params={'access_token': token},
             json={
-                "group_name": "group_demo_12011",
+                "group_name": "group_demo_122211",
                 "tag": [{
-                        "name": "tag_demo_12011",
+                        "name": "tag_demo_122211",
                     }
                 ]
             }
@@ -54,14 +54,10 @@ class TagConfig:
             params={'access_token': token},
             json={
                 "tag_id": [
-                    "TAG_ID_1",
-                    "TAG_ID_2"
-                ],
-                "group_id": [
-                    "GROUP_ID_1",
-                    "GROUP_ID_2"
+                    "etqsg8CAAAw9LPAug7SzJSSZVTWIXspA"
                 ]
             }
         )
+        print(json.dumps(res.json(), indent=2))
         return res
 
