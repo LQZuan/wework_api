@@ -1,0 +1,32 @@
+case1:
+  group_name: GROUP_NAME
+  tag:
+  - name: TAG_NAME_1
+case2:
+  group_name: GROUP_NAME
+  tag:
+  - name: TAG_NAME_200000000000000000000
+case3:
+  group_name: GROUP_NAME1
+  order: 1
+  tag:
+  - name: TAG_NAME_31
+    order: 1
+  - name: TAG_NAME_32
+    order: 2
+case4:
+  group_name: GROUP_NAME40000000000000000000
+  tag:
+  - name: TAG_NAME_4
+case5:
+  group_name: GROUP_NAME1
+  order: 0
+  tag:
+  - name: TAG_NAME_5
+    order: 0
+case6:
+  group_name: GROUP_NAME1
+  order: 4294967295
+  tag:
+    - name: TAG_NAME_6
+      order: 4294967295
